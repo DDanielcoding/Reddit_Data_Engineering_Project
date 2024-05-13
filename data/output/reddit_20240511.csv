@@ -1,0 +1,226 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1cpcx94,How can I upskill myself,"I am working in a company where I am the only guy working on aws with a client. So alot of time I am just doing things which look good to me or I find something on internet.
+
+Plus there are not a lot of Senior Data Engineer from whom I can learn anything. I mean there are many people senior than me but its just that they are not that great. 
+
+I am really trying to move to a company where I can grow with time and learn things from experience but since I am just doing bullshit work everyday for a client who will always overburden me with stuff I am just too tired to do any leetcode or sql so most of the interviews I do I fail them. and because I lack good data engineering skills.
+
+In all this scenario how can I make a plan for 3-5 months so that I might be able to clear interviews while also learning things on the side to constantly upskill myself.",34,13,pixel_pirate1,2024-05-11 08:39:27,https://www.reddit.com/r/dataengineering/comments/1cpcx94/how_can_i_upskill_myself/,0,False,False,False,False
+1cpmfsj,Top 5 things a New Data Engineer Should Learn First,What are 5 concepts or skills that a data engineer should learn first? Whats your list look like?,32,37,AMDataLake,2024-05-11 17:20:51,https://www.reddit.com/r/dataengineering/comments/1cpmfsj/top_5_things_a_new_data_engineer_should_learn/,0,False,False,False,False
+1cpf214,Analyst wanting to do DE team's work - company or industry issue?,"I've been working in data for over a decade and recently have started to feel a new trend coming which has made me start hating the industry.
+
+Once upon a time, companies had data teams, data engineering, reporting, data science, machine learning teams - dedicated teams of people who studied and interviewed for data jobs. Whether it is formal education or self-taught, these people went through a process of research and learning, interviewed with someone experienced, and got the job.
+
+Recently at least in my current company, several people in different departments - marketing, legal, customer service, finance, all want a slice of the ""data"" work. The pattern is that they are hired to do an unrelated job, and their boss asks them to learn SQL to completely bypass our department.
+
+The requests have gone from ""create a report"" to ""give me a schema so I can build my own data model"" - the data models being built are trash, the data warehouse is constantly overloaded with crappy queries.
+
+Recently I have met an analyst who ""learnt python"" and wants to write data science models, but will not tell me what the models are for.
+
+My issue is not with people who want to get into data engineering, but with people who were literally hired to do a different job, but somehow justifying themselves pushing over people who have been hired to do the job.
+
+I have started to feel that the environment is toxic, but I was wondering whether this is being experienced throughout the industry, or maybe it's just me? I have spoken to someone at another company who has a similar ""data culture"" and was wondering if it's something everyone has experienced?",17,22,exact-approximate,2024-05-11 11:09:03,https://www.reddit.com/r/dataengineering/comments/1cpf214/analyst_wanting_to_do_de_teams_work_company_or/,0,False,False,False,False
+1cpdk38,"Is unstructured data / are ""multimodal"" data pipelines gnna be a big deal or is the AI hype?","[https://www.getorchestra.io/blog/the-unstructured-data-funnel](https://www.getorchestra.io/blog/the-unstructured-data-funnel)
+
+  
+Curious to get people's thoughts on this - when I wrote this it was off the back of snowflake including loaads of refs to ""unstructured data"" in their annual report and companies offering ""multimodal"" ELT also raising  lots of money. Been quite quiet on this front since",16,4,engineer_of-sorts,2024-05-11 09:26:14,https://www.reddit.com/r/dataengineering/comments/1cpdk38/is_unstructured_data_are_multimodal_data/,0,False,False,False,False
+1cp57aa,How to Build Robust Data Engineering Infrastructure for Massive CSV Files?,"Hey everyone,
+
+I'm currently a junior engineer who's been tasked with a project in our operations team that involves handling large volumes of hourly usage data across multiple products. So far, I've been acquainting myself with the domain and working with some historical data provided in CSV format.
+
+However, one major issue I've encountered is that the headers of the CSV files aren't standardized. To address this, I've identified the specific columns I need to work with. The data itself is massive, roughly around 100 GB, and the volume keeps increasing monthly. My goal is to process, store, visualize, and eventually build algorithms with this data.
+
+At the moment, I'm using Python and Pandas along with PostgreSQL, supplemented by some SQL scripts for indexing and structuring. But I'm facing several challenges:
+
+1. Python's lack of typing makes coding a bit cumbersome.
+2. Managing the database and CSV files is slow.
+3. Loading the CSVs into the database isn't optimal for processing.
+
+I want to establish robust infrastructure not just for myself but for future developers who might work on this project. However, I'm at a loss on where to begin.
+
+I'd appreciate any suggestions on tools or frameworks that could help me set up a more efficient environment for this task. Thanks in advance for your help!",15,27,BeefHit22,2024-05-11 00:55:10,https://www.reddit.com/r/dataengineering/comments/1cp57aa/how_to_build_robust_data_engineering/,0,False,False,False,False
+1cpa9xb,Was assigned a Product and Data Owner for Salesforce Implementation. I am new to the company. I do not know data governance. Send help.,"No idea if this is the right sub, apologies in advance.
+
+Background: I am someone who has years of project management experience, both on the client side in implementation, and internal facing within a PMO. I'm versed in agile methodologies and waterfall. I've led Salesforce implementations and releases before as a project manager.
+
+I started in this company as a liaison between the end user and the dev team. Admittedly, the project has been mismanaged from initiation. My skillset came to light as I corrected some areas of the implementation, and now I've found myself being given the promoted role of the CRM product and data owner.
+
+I have no idea what the fuck the expectations are because the organization barely knows how to use agile. I've been told I'll be responsible for data governance and the success of the product (Salesforce). The project has been in the red and deployment is two months away.
+
+Send help.",9,16,IAmNotAChamp,2024-05-11 05:43:55,https://www.reddit.com/r/dataengineering/comments/1cpa9xb/was_assigned_a_product_and_data_owner_for/,0,False,False,False,False
+1cp67ig,Tech Diff: Compare technologies/tools,"Hi everyone. I've spent a lot of time researching and understanding different technologies and tools. But never found a place that contains all the information I wanted. The problems I was facing include:
+
+* Many new/existing technologies
+* Hard to compare objectively
+* Biased sources/marketing of data technologies skews views/opinions
+* Find answers to simple questions fast
+* Provide links for those wanting deeper information
+
+So I created [Tech Diff](https://tech-diff.com/) to easily compare tools in a simple table format. It also contains links so that you can verify the information yourself.
+
+It is an open-source project so you can contribute if you see any information is wrong, needs updating or if you want to add any new tools yourself. [GitHub repo is linked here](https://github.com/pflooky/tech-diff).",8,1,Pitah7,2024-05-11 01:47:46,https://www.reddit.com/r/dataengineering/comments/1cp67ig/tech_diff_compare_technologiestools/,1,False,False,False,False
+1cppc5g,I don't understand how companies use Debezium,"I'm a SE who is on loan to a data engineering department to help with some good old glue engineering, but also with testing and evaluating different technologies.   
+  
+Debezium seems like a perfect solution for several parts of the data mesh we're building. It's in the trial phase now, and it's working very well. We are capturing raw bronze layer data, but also have potentially business critical domain events being published to Kafka via the outbox pattern.
+
+Recently our teams were notified that support for our Postgres version on AWS Aurora will be coming to an end, so we went ahead and scheduled a major version upgrade... Pretty soon we realized that the replication slot would have to be deleted.
+
+But that meant that the connector had to be deleted.
+
+Which meant that we had to stop all writes to the DB.
+
+At which point the upgrade would have to be initiated manually.  
+  
+Then the creation of a new replication slot after the upgrade.
+
+Then a new connector.
+
+Then manually re-enabling writes.
+
+Which meant our entire upgrade process would have to be altered.
+
+And the real problem is that our upgrade process is unbelievably simple. You basically hit a button. Even less than that, we commit a version change and set ""enable\_major\_version\_update"" to true in our IAC configuration, and then we do nothing else - maybe some monitoring as the service goes down for like 15-30s.
+
+Can someone possibly explain to me how upgrades are being handled with this technology? There is no way we introduce manual steps when we do dozens of major version DB upgrades per year. 
+
+I'd really like us to use this technology.  
+(again, not a data engineer so I might be unaware of obvious truths)",7,2,NuclearNicDev,2024-05-11 19:37:29,https://www.reddit.com/r/dataengineering/comments/1cppc5g/i_dont_understand_how_companies_use_debezium/,1,False,False,False,False
+1cpg868,Help architecting a data heavy project,"**Abstract**
+
+Seeing Jalen Brunson play out of his mind, I want to see how his stats (like FT, 3P, Rebounds, Assists, Steals) stack up against other players who are traditionally ranked higher than him. However, I don’t want to compare his FT% to Shaq’s FT%, even though Shaq is one of those players ranked higher than him, so I could further filter based off percentage. In short, I want to build a benchmarking application that computes percentiles across some dimensions while using other dimensions to establish peer groups. 
+
+***This would be able to answer questions like***
+
+*“what percentile is Jalen Brunson in points per game (PPG) against other point guards with a 95 overall rating”* 
+
+OR
+
+*“What percentile is Josh Hart's LAST NIGHT PERFORMANCE in minutes per game when compared to other players shooting less than 50 3pt%”?*
+
+
+
+These are the details as I see them
+
+**Data Model**
+
+1. Let’s say I have a star schema where the central player fact table has date, player\_id, and stat columns (3pt made/attempted, free throws made/attempted, steals, blocks, etc…)
+   1. In the future I could create more star schemas for entities like Team and Game so I further filter and benchmark across dimensions like Win/Loss% or home stadium location
+
+
+
+**Requirements**
+
+1. Load incremental data from here [https://www.kaggle.com/datasets/wyattowalsh/basketball](https://www.kaggle.com/datasets/wyattowalsh/basketball) or via NBA public API every morning into a data store
+2. Track \~12 performance facts per game and allow benchmarking of their average values after applying filters
+
+
+
+**Intuition**
+
+   1. Data is either nominal, ordinal, interval, or ratio. Since Nominal is the only type of data that can’t be ranked I either need to 1) store data that is at least ordinal OR I need to categorize metrics into two buckets, benchmarkable AND filterable OR just filterable.
+   2. Follow Kimball data model so I can easily start with just players then incrementally add fact/dimension tables for teams and games and seasons
+
+
+
+**Questions**
+
+1. I will need to compute aggregations of dimensions every day eg. 3pt PERCENTAGE or avg(minutes\_played) or sum(points). This columnar analytical workload seems primed for Snowflake but that’s too expensive for a public facing API. I could build percentiles in Snowflake then expose an API that finds a player dimension and finds the “percentile bucket” but then any filtering done on the API would require a totally different set of percentiles. Is there any way I can use Snowflake to build percentiles but let customers provide dynamic filters?
+2. If I wanted to not just benchmark an average but also sum and count how would this architecture change?
+3. If instead of benchmarking players (\~1.5M rows) I was to benchmark individual posessions (\~500M rows) how would your database and ETL recommendation change?
+
+
+
+Any sketches or details about high level architecture or data model would be incredibly appreciated. I want to limit scope while so I can start this project without being overwhelmed, but do so in an extensible way so I don’t need to start from scratch every time I add a new dimension or feature. 
+
+
+
+Side Note: I’m looking to expand my data engineering network! Traditionally I have built data pipelines but I’m realizing that most of my past work was solving straightforward problems. Reach out if you ever want to bounce ideas off each other or start a book club.",6,1,Dry-Respond-8831,2024-05-11 12:18:23,https://www.reddit.com/r/dataengineering/comments/1cpg868/help_architecting_a_data_heavy_project/,0,False,False,False,False
+1cphwip,Fact Order Modeling,"How should I construct fact tables for order and order line data from Shopify data in accordance with Kimball data modeling principles? I've learned that Kimball suggests each fact table should represent an event. Does this mean I should create separate fact tables for different order statuses such as completed, delivering, canceled, refunded, etc. (each status represent an event)? If so, how can I determine which orders are in the delivering stage but not yet completed? Would it be appropriate to join these separate fact tables together by order\_id? I think the query will become too large",5,10,natas_m,2024-05-11 13:48:25,https://www.reddit.com/r/dataengineering/comments/1cphwip/fact_order_modeling/,0,False,False,False,False
+1cp5mnu,How to transfer Excel file from SFTP to Azure Data Lake with pysftp?,"I have a Python script with `pysftp.Connection()` object that connects to the SFTP and within that block of code I'm able to extract the Excel file I need. However, I can't figure out how to accomplish two things:
+
+* Build out the folder path to the destination folder in Azure Data Lake. The folder path should look like this:
+   * Project Name > Year > Month > Day
+* Transfer this file to the above destination folder inside Day
+
+I know I need to use the `put()` method to transfer the file from SFTP to the data lake, but I am not sure how to first dynamically build the folder path in the data lake?",6,4,imperialka,2024-05-11 01:17:16,https://www.reddit.com/r/dataengineering/comments/1cp5mnu/how_to_transfer_excel_file_from_sftp_to_azure/,1,False,False,False,False
+1cp8c12,Creating an iceberg events lake on AWS,"`Context`
+
+- my company has decided to adopt events driven architecture and there is a need for analytics, we are currently on DMS + Redshift.
+- the implementation of an events lake is  brand new to everyone, there is basically no previous experience with implementing this on AWS, everything we have found is from google / reading.
+- This is early days, so getting the right collaboration in terms of payload design and ingestion with the producers is in the works.
+  
+
+`Technical setup` 
+
+- There are 5+ streams of data ( Architectural units for those that are familiar)
+- each of these streams generate 10+ event types, each with a distinct schema (asyncAPI speced)
+- all of this goes into a centralized data store (s3) in the raw format via kinesis, from there, there is some filtering during s3 replication
+- the filtered events end up in the `analytics_raw` bucket in thier raw format(parquet). 
+
+`Events setup`
+
+- each event has an metadata envelope,and then the actual payload within an object, so there is always at least 1 nested object.
+- the payload design principles are such that deep nesting / listing should be avoided, and for now, we will be rejecting all events that are nested 2+ or have lists. ( we are planning to send them to a specific bucket for processing and feedback.)
+
+
+`Goal`
+
+- take all events that come into the `analytics_raw` and turn them into `iceberg` tables
+  - the idea is to do a 1 hour micro-batch / batch processing on all new arrivals (incrementally using either paritions or bookmarks.)
+- register all this to the glue data catalog, and allow schema evolution, and alert when it would fail.
+- Ideally, if a new folder is created (new stream), it should be automatically added to the workflow.
+
+with that, here is where I am asking for help .
+
+1. The glue job takes in a source bucket, and uses it for dynamicFrame creation.. if I have 1 bucket with 5 streams each with 10 event-types, each with it's own schema, would I need 50 jobs? This feels very wrong, and given that you can call glue jobs with arguments, my assumption is that you have 1 job that gets different arguments, likely called from lambda / glue workflows?
+2. the visual glue ETL does allow for the creation of the glue data catalog iceberg table, but one of the caveats is that schema evolution is not supported in that way, meaning I will likely have to resort to custom scripting with 
+`write_dynamic_frame_from_catalog` (https://docs.aws.amazon.com/glue/latest/dg/update-from-job.html). The question becomes in the case of non-compatible schema evolution, will this fail, or can I have control over this ?
+1. Is the crawler => glue catalog actually the right way to do this ? the events always have at least 1 nested object, and i'm concerned about the crawler playing nice with this.. not to mention I have a defined asyncAPI spec, so inferring a schema when I have a spec sheet seems wrong, but creating an  data catalog iceberg from a stream schema registry schema is not possible at this time it seems.
+2. Just reading through the various items, alot of the iceberg stuff seems very manual in that the the table and the schema is created manually in athena SQL, and then populated.. is this the way that it should be done? I was under the impression that having a more dynamic and self-creating + reporting architecture will make things much easier in the long run. 
+
+
+If anyone has any experience with any of this, any advice would be greatly appreciated.",3,0,hornager,2024-05-11 03:44:18,https://www.reddit.com/r/dataengineering/comments/1cp8c12/creating_an_iceberg_events_lake_on_aws/,0,False,False,False,False
+1cpp9km,What do you use to test and format kSQL?,I use SSMS with Redgat and Azure Data Studio for work most of the time. Now I’m branching out to do kSQL in Confluent Control Center and miss my SSMS bells and whistles.,2,0,CorrectAd1424,2024-05-11 19:34:06,https://www.reddit.com/r/dataengineering/comments/1cpp9km/what_do_you_use_to_test_and_format_ksql/,0,False,False,False,False
+1cpog1i,Question related to Glue Schema registry and DDB streams,"I want to explore how I can utilize Glue Schema Registry in our application and, if not feasible, what alternative options we have. 
+
+Currently, we stream data from DynamoDB tables to an S3-based data lake via DynamoDB streams (Kinesis connector), which then uses Firehose to write to S3. 
+The metadata for querying by Athena is stored in Glue Tables in S3. 
+
+My goal is to employ Glue Schema Registry to manage schema evolution, as there's currently no way to ensure that the structure of Glue Tables aligns with the data streaming from DynamoDB Streams. 
+
+The data in S3 is stored in Parquet format, and our application code is in Node.js. I'm aware that Node.js isn't supported with Glue. I'd like more insights on integrating Schema Registry into this design and what other options are available. ",2,0,simmiiee,2024-05-11 18:55:44,https://www.reddit.com/r/dataengineering/comments/1cpog1i/question_related_to_glue_schema_registry_and_ddb/,1,False,False,False,False
+1cpnvhb,What is your favourite way (and tools) to build a data warehouse for data analytics purpose? ,Let your wisdom come! ,2,1,ubiond,2024-05-11 18:28:56,https://www.reddit.com/r/dataengineering/comments/1cpnvhb/what_is_your_favourite_way_and_tools_to_build_a/,0,False,False,False,False
+1cplzis,Looking for suggestions on the solution I need to build!,"
+So, I have been working in an app that is a web application that displays data to the user, think of it as a annual report of sales. The queries that generates the report are pretty complex and big, and data is created to three different tables according to some business requirements, for that reason, BigQuery was selected and does the job very well.
+
+Then we added the ability to edit certain fields of the report, and the user can submit the new numbers so we generate a new version of the report. 
+
+To keep all of it in GCP, we are using Composer (basically a managed Airflow instance), and we also started to use Dataform.
+
+So its like: the UI calls the Airflow DAG via a REST API, Airflow triggers the Dataform pipeline, and data is inserted to BigQuery.
+
+Now, it is taking ~1 minute so the data is generated and shown in the UI. The UI is very fast and the 3 queries are running in less than 10 seconds. The data is created in temp tables and we throw it into the production tables after some basic validation
+
+What I need now is to improve the run time, so the user dont spend more than 10 or 15 seconds waiting for the new version is generated.
+
+I dont see a way of speeding it up using this stack so maybe I need to add some extra layers. I thought of putting a Postgres database with recent data connected to the UI, but I dont know exactly how to handle the creation of new data, then inserting it back to BigQuery, so I am looking for suggestions. What do yall think it can be done? Thanks in advance!",2,1,PaleRepresentative70,2024-05-11 17:00:26,https://www.reddit.com/r/dataengineering/comments/1cplzis/looking_for_suggestions_on_the_solution_i_need_to/,1,False,False,False,False
+1cpc9du,Looking for collaboration,"Hello data community! I'm a mid-level data engineer with a passion for creating and learning things from building. 
+
+I'm looking to collaborate on an impactful project to expand my portfolio and learn from others.
+Anyone open to brainstorming ideas or teaming up? Let's connect!",2,1,Delicious-Link6411,2024-05-11 07:53:18,https://www.reddit.com/r/dataengineering/comments/1cpc9du/looking_for_collaboration/,0,False,False,False,False
+1cp0mrc,Loading data into azure databricks,"Hi, we are thinking of migrating our datawarehouse to azure databricks. We currently use Talend loading into an MPP database.  I think I have my head around the databricks/ azure architecture.  I can easily understand using Talend to connect directly to a databricks sql warehouse and loading data into the tables.  However this pattern seems to almost never be suggested., it seems more common to load data into adls gen2 storage account (using adf more usually but I can see talend can also be used) first and then use databricks notebooks to curate the data from there.  Between these two options, what are the pros and cons?",2,0,ThemeKitchen8358,2024-05-10 21:24:43,https://www.reddit.com/r/dataengineering/comments/1cp0mrc/loading_data_into_azure_databricks/,0,False,False,False,False
+1cpr162,Should I feel dissatisfied with pressure to learn ML?,"For context, I am working as a data engineer in a large corporation. My team is responsible for managing and orchestrating data pipelines (both batch and streaming) as well as maintaining data lakes and various microservices. We work closely with applied scientists within our org and generally help support and enable them with clean data pipelines and model deployments. However, the bulk of the ML feature development are handled by the scientists and there generally has been a clear separation of responsibilities between the two disciplines.
+
+In the past 1-2 years, our engineering team's charter has trended towards becoming more involved in the actual science of ML feature development rather than just being data providers for enabling others. The reason for this trend as provided by management is that the work done by data providers is hard to translate directly into monetary contribution. For example, if another team used our data and launched a product that generated $100MM in revenue, then it becomes difficult to say who deserves the credit.
+
+This has created some dissatisfaction within the team, as most of us are not experienced with the math/stats required for production-grade ML (other than some crash courses we've taken in our spare time or long-forgotten college courses). Our responsibilities, specialization, and passion have always been rooted in software system design, maintenance, operations, etc. which are now treated as afterthoughts by management since all the money, prestige and eyes are on ML feature development and who can generate the most $ for the company. Compared to the large number of applied scientists within our organization, we lack the training, background, and passion for ML / data science, but we are still all required to ramp up on these concepts (while maintaining our current operational / maintenance responsibilities) or else be left irrelevant.
+
+My question is: is it justified for me to feel dissatisfied with the changing charter of our team? I understand that part of being a software developer requires constant learning and I am confident that I can quickly learn any framework, language, database, etc. but this change makes me feel almost inadequate in my abilities as an engineer. For example, when I read the experiments / papers written by our applied scientists, a lot of the language is difficult for me to parse due to the heavy math involved, which is discouraging to say the least. Is this all in my head / am I becoming stubborn to the winds changing? Should I be embracing this as the next advancement in what a software engineer is required to know? Or is management just asking for too much?
+
+Any perspective would be greatly appreciated, cheers.
+
+",3,2,fIying,2024-05-11 20:57:37,https://www.reddit.com/r/dataengineering/comments/1cpr162/should_i_feel_dissatisfied_with_pressure_to_learn/,0,False,False,False,False
+1cp4qug,E2E Data Ops Mgmt Sys,"Hi, looking to see if anyone here is using any customized E2E Data Operation Management System focusing on certain data domain. Its like SNOW but for data.
+
+Maybe start with Master Data Ops in ERP ecosystem.",1,0,Personal_Tennis_466,2024-05-11 00:31:41,https://www.reddit.com/r/dataengineering/comments/1cp4qug/e2e_data_ops_mgmt_sys/,1,False,False,False,False
+1cpip8u,How to build Real-Time Analytics on top of the Lakehouse? ,,0,1,Nice_Substance_6594,2024-05-11 14:27:05,https://i.redd.it/9c2sh4ap4tzc1.png,0,False,False,False,False
