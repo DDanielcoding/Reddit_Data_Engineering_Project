@@ -6,9 +6,9 @@ This project offers a robust ETL (Extract, Transform, Load) pipeline designed to
 
 The pipeline is designed to:
 
-Extract data from Reddit using its API.
-Orchestrate ETL processes with Apache Airflow and Celery.
-Store the raw data into an S3 bucket from Airflow.
-Transform the data using AWS Glue and Amazon Athena.
-Load the transformed data into Amazon Redshift for analytics and querying.
+- Extract data from Reddit using its API.
+- Orchestrate ETL processes with Apache Airflow and Celery.
+- Store the raw data into an S3 bucket from Airflow.
+- Transform the data using AWS Glue and Amazon Athena.
+- Load the transformed data into Amazon Redshift for analytics and querying.
 
