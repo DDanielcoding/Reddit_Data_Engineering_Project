@@ -16,7 +16,8 @@ The pipeline is designed to:
 # Architecture
 
 
-![architecture](https://github.com/DDanielcoding/Reddit_Data_Engineering_Project/assets/155651525/a0679747-010b-47ef-a33b-21c353202e8e)
+![architecture2](https://github.com/DDanielcoding/Reddit_Data_Engineering_Project/assets/155651525/79ce642d-ae34-459f-bdad-6805835d62d6)
+
 
 
 - **Reddit API**: Serves as the data source.
