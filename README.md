@@ -16,7 +16,8 @@ The pipeline is designed to:
 # Architecture
 
 
-![architecture (1)](https://github.com/DDanielcoding/Reddit_Data_Engineering_Project/assets/155651525/bb2a3d9e-d902-4c31-a8f0-77876ad68d10)
+![architecture](https://github.com/DDanielcoding/Reddit_Data_Engineering_Project/assets/155651525/0091fbb1-3b22-40ec-acf5-d95bfaefaf49)
+
 
 
 
