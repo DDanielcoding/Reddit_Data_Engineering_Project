@@ -12,3 +12,17 @@ The pipeline is designed to:
 - Transform the data using AWS Glue and Amazon Athena.
 - Load the transformed data into Amazon Redshift for analytics and querying.
 
+
+# Architecture
+
+
+![architecture](https://github.com/DDanielcoding/Reddit_Data_Engineering_Project/assets/155651525/a0679747-010b-47ef-a33b-21c353202e8e)
+
+
+- **Reddit API**: Serves as the data source.
+- **Apache Airflow & Celery**: Orchestrate the ETL process and manage task distribution.
+- **PostgreSQL**: Used for temporary storage and metadata management.
+- **Amazon S3**: Stores raw data.
+- **AWS Glue**: Handles data cataloging and ETL jobs.
+- **Amazon Athena**: Performs SQL-based data transformations.
+- **Amazon Redshift**: Facilitates data warehousing and analytics.
